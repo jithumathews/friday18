@@ -29,6 +29,7 @@ class Mathss{
         b = 3,
         div = a~/b;
     print('div = $div');
+
   }
 
 }
