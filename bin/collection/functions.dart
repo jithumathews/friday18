@@ -4,7 +4,7 @@
 ///  3.parameterised
 ///      a.optional positional
 ///      b.optional named
-///      c.optional named with default values
+///      c.optional parameterised fucnton with default values
 
 void main()
 {
@@ -14,6 +14,8 @@ void main()
   fun4('jithu',age :45, cgpa :6);// its only called by the names defined
   fun5('flutter', rate: 25999 , hours :1.5);
   fun5('python');
+  show();
+  print(show1());
 }
 ///1.default fun / no argument
 
@@ -47,3 +49,10 @@ void fun5(String course , { int? rate , double hours = 2})
 {
   print('course =$course , rate = $rate, hours = $hours ');
 }
+
+
+/// lambda function or arrow fn
+
+void show() => print('hello'); //only single statements can be used
+String show1() => 'hello';
+

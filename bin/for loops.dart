@@ -37,7 +37,7 @@ void main() {
   {
    sum = sum + b;
   }
-  print(sum);
+  print(' sum of 10 nautral numbers is =$sum');
 
 ///sum of odd and even single pgm
 
@@ -57,7 +57,7 @@ print('sum of odd numbers = $oddsum');
 
   ///multiplication table of 2
 
-
+ print('multiplication table of 4');
   for( int b = 1; b <= 10 ; b++)
   {
     print('4 * $b = ${4 * b}');
