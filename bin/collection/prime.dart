@@ -9,6 +9,7 @@ void main(){
       if (num % i ==0)
         {
           temp =1;
+          break;
         }
 
     }
