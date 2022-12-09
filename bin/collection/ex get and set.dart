@@ -12,6 +12,7 @@ class Vehicle
   void set age (int currentYear){
     vehicleage = currentYear-manufacturyr;
   }
+  //we can elimiate set and by only using get
  // int get age{
    // return DateTime.now().year - manufacturyr;
   //}
