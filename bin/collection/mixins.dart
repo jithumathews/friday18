@@ -1,3 +1,4 @@
+/// class like structure that we can use instead of absract class.....cant use constructors in mixins
 mixin A{
   String name ="jithu";
   int age = 21;
@@ -27,3 +28,7 @@ void main()
   obj.display();
   obj.add();
 }
+/// priority wise using
+/// 1.class
+/// 2.mixin
+/// 3.interface
